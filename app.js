@@ -171,7 +171,7 @@ function addOneToSelect(laptop) {
     descPriceElem.innerText = new Intl.NumberFormat('no-NO', {style: 'currency', currency: 'NOK'}).format(selectedLap.price);
     descLapFeatureElem.innerText = selectedLap.specs;
     descLapTitleElem.innerText = selectedLap.title;
-    descLapDescElem.innerTex    t = selectedLap.description;
+    descLapDescElem.innerText = selectedLap.description;
     let text = `https://hickory-quilled-actress.glitch.me/${selectedLap.image}`;
     if (selectedLap.id != 5){
         imageLapElem.src = text;
