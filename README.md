@@ -7,7 +7,7 @@
 > Part of the Noroff fullstack .NET accelerate module.
 
 ## Functionality
-The Komputer Store page givesMake money and get paid. 
+The Komputer Store page gives the following GUI options:
 1. Bank: Your bank account gives you an overview of your balance, and allows you to take up a loan.
 2. Work: Your work allows you to get paid and choose what to do with that money. Among the options is to pay back on the loan, or save money in your bank account. The latter option will make sure that 10% of your pay will go to repay any existing loans. 
 3. Select: Choose a laptop matching your preferred laptop-features.
