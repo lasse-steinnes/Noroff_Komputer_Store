@@ -56,9 +56,11 @@ function getLoan(){
             alert(`You cannot loan more than 2x your current balance: ${bankValue} NOK`)
         } else { // Get loan, show loan value and activate loan button
             loanValue = prompt;
+            bankValue += loanValue;
             descloanElem.innerHTML = `Loan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${new Intl.NumberFormat('no-NO', { style: 'currency', currency: 'NOK' }).format(loanValue)}`;
             descloanElem.style.display = "block"  // show loan value in Bank
             btnrepayloanElem.style.display = 'block'; // show optional repay button in Work
+            updateBalance();
         }
     }
 }
