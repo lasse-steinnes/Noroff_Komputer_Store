@@ -55,3 +55,12 @@ span.a {
   display:none;
   /* hidden before taking a loan */
 }
+
+#computerImage{
+  display: inline;
+}
+
+#hd-my-comp-title{
+  display: inline;
+}
+
