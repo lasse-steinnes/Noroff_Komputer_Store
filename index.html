@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komputer Store</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <header style="background-color: black; color:white;padding:20px;"> 
+    <h1 > Komputer Store </h1>
+    </header>
+    <main>
+    <div class = container>
+         <div class = "clearfix">
+            <div class="box">
+            <!-- Bank page -->
+            <h3 id = "hd-banker"> Bank  </h3>
+            <p id = "desc-balance">  <br> <br> </p> <!-- Balance -->
+            <p id = "desc-loan"> <br> <br> </p>
+                <button id = "btn-get-loan" style = "background-color:rgb(150, 244, 9); height:30x;width:100px; border-color:white;border-radius: 5px"> Get Loan </button>
+            </div>
+            <div class="box">
+            <!-- Work page-->
+            <h3 id = "hd-work"> Work </h3>
+                <p id = "desc-paid" > Pay &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 NOK <br> <br> </p>
+                <button id = "btn-bank" style = "background-color:rgba(237, 237, 142, 0.977); border-color:white;border-radius: 5px"> Bank </button>
+                <button id = "btn-work" style = "background-color:rgb(0, 149, 255); border-color:white;border-radius: 5px"> Work </button>
+                <button id = "btn-repay" style = "background-color:rgb(239, 101, 73); height:30x;width:100px; border-color:white;border-radius: 5px"> Repay Loan </button>
+            </div>
+            <div class="box">
+                 <!-- Laptop select and feature page -->
+                <h3 id = "hd-laptops"> Laptops </h3>
+                <select name="laptop-title-opts" id="sel-pc-option">
+                    <!-- <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                    <option value="option-4">Option 4</option> -->
+                </select>
+
+                <h4> Features: </h4>
+                <p id = "desc-comp-features"> </p> <!--  Write laptop features here -->
+            </div> 
+        </div>
+    </div>
+    <div class= container>
+        <!-- Computer title and description + buy now button -->
+        <div class = "clearfix">
+            <div class = "box2"> 
+                <img id = "computerImage" width="150" height = "150"> 
+                <h3 id = "hd-my-comp-title">  <br> </h3> <!-- My comp. title-->
+                <p id = "desc-comp-dd">  </p> <!-- My description of computer type -->
+            </div>
+            <div class = box3>
+                <h4 id = "hd-laptop-price"> Price </h4>
+                <button id = "btn-buy" style = "background-color:rgb(0, 149, 255); height:30x;width:100px; border-color:white;border-radius: 5px"> BUY NOW </button>
+            </div>
+        </div>
+    </div>
+
+    <script src = "./app.js" > </script>
+    </main>
+</body>
+</html>

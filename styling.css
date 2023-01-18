@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.00%;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.box2 {
+    float: left;
+    width: 60.0%;
+    padding: 5%;
+    background-color: white;
+    /*border-radius: 25px;*/
+    /*border: 1px solid rgba(150, 150, 150, 0.5);*/
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+}
+
+.box3 {
+    float: right;
+    background-color: white;
+    width:40.00%;
+    padding: 5%;
+    /*border-radius: 25px;*/
+    /*border: 1px solid rgba(150, 150, 150, 0.5);*/
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+  }
+
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#btn-repay{
+    font:bolder;
+    display:none;
+    /* hidden */
+}
+
+#desc-loan{
+  display:none;
+  /* hidden before taking a loan */
+}
