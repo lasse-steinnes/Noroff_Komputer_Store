@@ -6,6 +6,13 @@
 
 > Part of the Noroff fullstack .NET accelerate module.
 
+## Download and run 
+```bash==
+git clone https://github.com/lasse-steinnes/Noroff_Komputer_Store.git
+```
+
+You can run the app with the Live Server extension in the IDE Visual Studio Code.
+
 ## Functionality
 The Komputer Store page gives the following GUI options:
 1. Bank: Your bank account gives you an overview of your balance, and allows you to take up a loan.
