@@ -3,6 +3,7 @@
 
 ## Abstract
 > Make an application for a laptop store, with bank, loan and payment, using JavaScript.
+
 > Part of the Noroff fullstack .NET accelerate module.
 
 ## Functionality
