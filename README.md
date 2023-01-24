@@ -32,3 +32,22 @@ The Komputer Store page gives the following GUI options:
 - [app.js](https://github.com/lasse-steinnes/Noroff_Komputer_Store/blob/main/styling.css) : Application JavaScript. Handles the eventspecific actions.  
 - [index.html](https://github.com/lasse-steinnes/Noroff_Komputer_Store/blob/main/index.html) : HTML script with interface to app.js. Orders inline and block-elements.
 
+## Feedback:
+
+> ... that's very mindful.
+
+> Nice readme.md file, just remember to add your name and any others who contributed to the development of the project. This will not affect your grade for now.
+
+> For variable names we try avoid names like "box2", "box3", etc. because they are not very descriptive, and it's confusing for someone who is reading your code.
+
+> Generally we will never put multiple function calls on one line like you have in app.js line 118 & 121. If we update that line of code, our git repository will highlight that line as changed, and it won't be immediately visible what has changed.
+
+> You hardcoded a fix to the laptop image that doesn't load correctly (this is done on purpose to make sure you handle broken images correctly). Always use "alt-text" with your <img> tags to give extra information to the user when needed.
+
+> When your page loads, the Work Balance and Bank Balance numbers are formatted as "0 NOK", and when they are updated, they change to "100,00 kr". Keep an eye out for consistency.
+
+> Really good functionality to prompt the user if they want the surplus of their Work Balance after repaying a loan to be transferred to the Bank Balance. When receiving the response to that prompt, make sure that it's case-insensitive, so the user can type "Y", "y", "N", or "n".
+
+> The user should not be able to enter a negative loan amount, e.g. "-100". The user should not be able to enter a non-number loan amount, e.g. "abc".
+
+> Overall a really good submission, well done!
